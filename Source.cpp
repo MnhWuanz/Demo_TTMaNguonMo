@@ -17,6 +17,7 @@ int main()
 	cin>>b;
 	cout<<"USER A";
 	cout<<"Tong: " <<tong(a,b) <<endl;
+	cout<<"USER C";
 	cout<<"Tich: ""<<tich(a,b) <<endl;
 	system("pause");
 	return 0;
