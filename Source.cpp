@@ -10,8 +10,8 @@ float thuong(int a, int b);
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
-	cout<<"CHUONG TRINH TINH HIEU"
-	
+	cout<<"userB";
+	cout<<"Hieu la: "<<hieu(a,b);
 	system("pause");
 	return 0;
 }
