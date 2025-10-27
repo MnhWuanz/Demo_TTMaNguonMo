@@ -37,9 +37,7 @@ int main()g
 	cin>>a;
 	cout << "Nhap b:";
 	cin>>b;
-	cout<<"USER A";
-	cout<<"Tong: " <<tong(a,b) <<endl;
-	cout<<"USER C";
+
 	cout<<"Tich: "<<tich(a,b) <<endl;
 	 int number;
     cout << "Nhap so can kiem tra: ";
@@ -52,17 +50,24 @@ int main()g
 	int x;
 	cout<<"Nhap x: ";
 	cin>>x;
+		cout<<"USER A";
+	cout<<"Tong: " <<tong(a,b) <<endl;
+	cout<<"USER C";
 	if(chanVaLe(x)){
 		cout<<"x la chan";
 	}else{
 		cout <<"x la lẻ";
 	}
-	system("pause");
+	cout<<"USER D";
 	return 0;
 	}else{
 		cout <<"x la lẻ";
 	}
 	system("pause");
-	return 0;
+	return 0;git 
+		cout <<"x la lẻ";
+	}
+	system("pause");
+	return 0;git 
 
 }
