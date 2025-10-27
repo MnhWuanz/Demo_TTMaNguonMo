@@ -59,4 +59,10 @@ int main()g
 	}
 	system("pause");
 	return 0;
+	}else{
+		cout <<"x la lẻ";
+	}
+	system("pause");
+	return 0;
+
 }
