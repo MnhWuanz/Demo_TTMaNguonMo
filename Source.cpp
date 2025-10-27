@@ -12,11 +12,12 @@ int hieu(int a, int b){
 	return a-b;
 }
 
-int tich(int a, int b);
+int tich(int a, int b){
   return a*b;
+}
 float thuong(int a, int b);
-bool checksohoanthien(int n);
-if (n <= 1) return false;
+bool checksohoanthien(int n){
+if (n <= 1) return false{
 
     int sum = 0;
     for (int i = 1; i <= n / 2; ++i) {
@@ -26,7 +27,16 @@ if (n <= 1) return false;
 
     return sum == n;
 }
-int main()g
+int KtraAmduong(int n){
+	if(n<0){
+		return -1;
+	}else if(n>0){
+		return 1;
+	}else{
+		return 0;
+	}
+}
+int main()
 {
 	int a,b;
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
@@ -37,7 +47,9 @@ int main()g
 	cin>>a;
 	cout << "Nhap b:";
 	cin>>b;
-
+	cout<<"USER A";
+	cout<<"Tong: " <<tong(a,b) <<endl;
+	cout<<"USER C";
 	cout<<"Tich: "<<tich(a,b) <<endl;
 	 int number;
     cout << "Nhap so can kiem tra: ";
@@ -50,24 +62,24 @@ int main()g
 	int x;
 	cout<<"Nhap x: ";
 	cin>>x;
-		cout<<"USER A";
-	cout<<"Tong: " <<tong(a,b) <<endl;
-	cout<<"USER C";
 	if(chanVaLe(x)){
 		cout<<"x la chan";
 	}else{
 		cout <<"x la lẻ";
 	}
-	cout<<"USER D";
+	system("pause");
 	return 0;
 	}else{
 		cout <<"x la lẻ";
 	}
-	system("pause");
-	return 0;git 
-		cout <<"x la lẻ";
+	if(KtraAmduong(x)==1){
+		cout<<"x la so duong";
+	}else if(KtraAmduong(x)==-1){
+		cout<<"x la so am";
+	}else{
+		cout<<"x la so 0";
 	}
 	system("pause");
-	return 0;git 
+	return 0;
 
 }
