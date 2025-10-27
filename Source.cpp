@@ -15,6 +15,17 @@ int hieu(int a, int b){
 int tich(int a, int b);
   return a*b;
 float thuong(int a, int b);
+bool checksohoanthien(int n);
+if (n <= 1) return false;
+
+    int sum = 0;
+    for (int i = 1; i <= n / 2; ++i) {
+        if (n % i == 0)
+            sum += i;
+    }
+
+    return sum == n;
+}
 int main()g
 {
 	int a,b;
@@ -30,6 +41,14 @@ int main()g
 	cout<<"Tong: " <<tong(a,b) <<endl;
 	cout<<"USER C";
 	cout<<"Tich: "<<tich(a,b) <<endl;
+	 int number;
+    cout << "Nhap so can kiem tra: ";
+    cin >> number;
+
+    if (isPerfectNumber(number))
+        cout << number << " la so hoan thien." << endl;
+    else
+        cout << number << " khong phai la so hoan thien." << endl;
 	int x;
 	cout<<"Nhap x: ";
 	cin>>x;
